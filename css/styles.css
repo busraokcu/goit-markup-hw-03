@@ -32,7 +32,7 @@ header {
   border-bottom: #e7e9fc;
 }
 .page-nav {
-  list-style-type: none;
+  border: #2e2f42 solid 2px ;
 }
 
 .navsection {
@@ -48,6 +48,9 @@ header {
   color: #2e2f42;
   letter-spacing: 0.5;
   line-height: 1.2;
+  border: #2e2f42 solid 2px;
+  margin: 0;
+  padding: 24px;
 }
 .navlink {
   font-weight: 500;
