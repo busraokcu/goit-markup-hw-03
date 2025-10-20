@@ -26,19 +26,21 @@ body {
 /*---navigationbar----*/
 header {
   height: 72px;
-  display: flex; /* flex-start'da olabilir.*/
+  display: flex; 
   align-items: center;
   justify-content: space-around;
   border-bottom: #e7e9fc;
-}
-.page-nav {
-  border: #2e2f42 solid 2px ;
 }
 
 .navsection {
   display: flex;
   gap: 40px;
   list-style-type: none;
+}
+.navbar-item{
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .logo {
   font-family: Raleway, sans-serif;
@@ -48,7 +50,6 @@ header {
   color: #2e2f42;
   letter-spacing: 0.5;
   line-height: 1.2;
-  border: #2e2f42 solid 2px;
   margin: 0;
   padding: 24px;
 }
@@ -75,7 +76,8 @@ header {
 .address-li:hover {
   color: #404bbf;
 }
-/*main headre section */
+
+/*main header section */
 .main-header {
   background-color: #2e2f42;
 }
