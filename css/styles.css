@@ -176,6 +176,13 @@ header {
 .portfoliolist li{
   border: #e7e9fc solid 1px;
 }
+.portfoliolist h3{
+  margin-left: 16px;
+}
+.portfoliolist p{
+  margin-left: 16px;
+  margin-bottom: 32px;
+}
 /*portfolio section end*/
 
 /* footer section start*/
