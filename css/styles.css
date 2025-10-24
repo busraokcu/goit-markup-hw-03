@@ -12,7 +12,6 @@ ul {
 .container {
   width: 1440px;
   margin: 0 auto;
-  
 }
 body {
   margin: 0;
@@ -25,10 +24,11 @@ body {
 }
 /*---navigationbar----*/
 header {
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: space-around;
-  border-bottom: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px;
 }
 
 .navsection {
@@ -36,7 +36,7 @@ header {
   gap: 40px;
   list-style-type: none;
 }
-.navbar-item{
+.navbar-item {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -50,7 +50,6 @@ header {
   letter-spacing: 0.5;
   line-height: 1.2;
   margin: 0;
-  padding: 24px;
 }
 .navlink {
   font-weight: 500;
@@ -63,9 +62,9 @@ header {
 .navlink:active {
   color: #404bbf;
 }
-.info{
+.info {
   display: flex;
-  gap:40px;
+  gap: 40px;
 }
 .address-li {
   text-decoration: none;
@@ -85,12 +84,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0; 
+  padding: 188px 0;
 }
 #page-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   color: #ffffff;
   letter-spacing: 1.02px;
 }
@@ -111,14 +110,14 @@ header {
 }
 
 /* -------- hero section start ---------*/
-.hero{
+.hero {
   display: flex;
   flex-direction: row;
   gap: 24px;
   align-items: center;
   list-style-type: none;
-  padding: 120px 156px;  
-}  
+  padding: 120px 156px;
+}
 
 /* our team section start */
 .section-title {
@@ -127,7 +126,6 @@ header {
   color: #2e2f42;
   text-align: center;
   padding-bottom: 72px;
-  
 }
 .team-section {
   background-color: #f4f4fd;
@@ -139,7 +137,7 @@ header {
   width: 264px;
   border: 1px solid lightgray;
 }
-.members{
+.members {
   display: inline-flex;
   flex-direction: row;
   gap: 24px;
@@ -150,36 +148,35 @@ header {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
-  margin-top: 32px;
+
   margin-bottom: 8px;
 }
-.team-section p{
+.team-section p {
   margin-bottom: 32px;
 }
 
 /* our team section end*/
 
 /*portfolio section start*/
-.portfolio-section{
+.portfolio-section {
   padding: 120px 0;
 }
-.portfolio-section ul{
+.portfolio-section ul {
   list-style-type: none;
-  
 }
-.portfoliolist{
+.portfoliolist {
   display: flex;
   flex-flow: row wrap;
   gap: 24px;
   justify-content: center;
 }
-.portfoliolist li{
+.portfoliolist li {
   border: #e7e9fc solid 1px;
 }
-.portfoliolist h3{
+.portfoliolist h3 {
   margin-left: 16px;
 }
-.portfoliolist p{
+.portfoliolist p {
   margin-left: 16px;
   margin-bottom: 32px;
 }
@@ -191,13 +188,12 @@ header {
   color: #ffffff;
   padding: 100px 0;
 }
-.footerblock{
-   padding-left: 156px;
+.footerblock {
+  padding-left: 156px;
 }
 
-.page-footer p{
+.page-footer p {
   width: 264px;
-
 }
 .footer-logo {
   font-family: Raleway, sans-serif;
@@ -208,4 +204,3 @@ header {
   letter-spacing: 0.5;
   line-height: 1.2;
 }
-
