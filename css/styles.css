@@ -148,11 +148,13 @@ header {
   font-size: 20px;
   font-weight: 500;
   color: #2e2f42;
-
   margin-bottom: 8px;
 }
 .team-section p {
   margin-bottom: 32px;
+}
+.team-section h3{
+  margin-top: 32px;
 }
 
 /* our team section end*/
